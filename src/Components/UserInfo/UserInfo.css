@@ -1,0 +1,10 @@
+.user-info  {
+    font-size: 1.8rem;
+    /* margin: 0.8rem; */
+    display: grid;
+    grid-template-rows: 7vh repeat(2,6vh);
+    /* background: rosybrown; */
+}
+.user-info h2 {
+    margin: 1rem 0;
+}

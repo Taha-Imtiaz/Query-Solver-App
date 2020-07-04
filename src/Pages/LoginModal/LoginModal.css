@@ -1,0 +1,73 @@
+
+.loginmodal-body {
+    margin: 2rem 0;
+    width: 35rem;
+    height: 40rem;
+    box-sizing: border-box;
+}
+.loginmodal-body h1 {
+    margin: 1rem 0;
+   color:#d9534f;
+   font-weight: var( --font-weight-medium);
+   font-family: var(--font-heading);
+   padding: 1rem 0;
+   text-transform: uppercase;
+}
+.loginmodal-body input {
+    /* width: 25rem; */
+  
+    height: 4rem;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 1px solid #98a3a8;
+    width: 100%;
+    text-indent: 0.7rem;
+}
+.loginmodal-body input:focus {
+    border: 1px solid #81d4fa;
+}
+
+.loginmodal-body form div {
+    position: relative;
+}
+.loginmodal-body form label {
+    
+    padding-left:  0.7rem;
+    color: #303030;
+    font-size: var(--font-content-size);
+}
+.loginmodal-body form p {
+    margin-bottom: 2rem;
+    color: #d9534f;
+    font-size: 1.4rem;
+}
+.loginmodal-body button {
+    margin: 1rem 0;
+    outline: none;
+    padding: 1rem;
+    width: 20rem;
+    background: #d9534f;
+    border-radius: 0.3rem;
+    
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.googleloginBtn button {
+    background: #03a9f4 !important;
+}
+.loginmodal-body .navigateSignup {
+   flex-flow: row;
+   font-size: 1.3rem;
+   font-weight: var(--font-weight-regular);
+   font-family: var(--font-content);
+}
+.loginmodal-body .navigateSignup span {
+    color: #2b327e;
+    font-weight: bold;
+    font-size: 1.4rem;
+    transition: background 0.5s ease-in-out;
+}
+.loginmodal-body .navigateSignup span:hover {
+    color: rgb(43, 43, 43);
+}

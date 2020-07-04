@@ -1,0 +1,25 @@
+.user-profile-container {
+    display: grid;
+    grid-template-rows: 20vh minmax(70vh,min-content);
+
+}
+.question-answer-container {
+    display: grid;
+    grid-template-columns: 35fr 65fr;
+
+    
+}
+.question-container {
+   display: grid;
+   /* background: royalblue; */
+}
+.question-container h1 {
+    margin: 1rem 0;
+}
+.answer-container {
+    display: grid;
+    /* background: red; */
+}
+.answer-container h1 {
+    margin: 1rem 0;
+}

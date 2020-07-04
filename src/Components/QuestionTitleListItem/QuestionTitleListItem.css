@@ -1,0 +1,22 @@
+.question-item {
+    display: grid;
+    grid-template-rows: 6vh;
+    grid-template-columns: repeat(2,1fr);
+    /* background: rgb(49, 92, 90); */
+    grid-template-areas: "question-title question-button";
+    margin: 1rem;
+}
+.question-title {
+    grid-area: question-title;
+    padding-left: 1rem;
+    font-size: 2rem;  
+    /* background: violet; */
+}
+.question-button {
+    grid-area: question-button;
+    outline: none;
+    padding: 1rem 2rem;
+    background: #5bc0de;
+    color: white;
+    border-radius: 0.3rem;
+}

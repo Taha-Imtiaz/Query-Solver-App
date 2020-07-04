@@ -1,0 +1,109 @@
+.navbar-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns:35vw repeat(3,11vw) 22vw 10vw;
+ 
+  text-transform: uppercase;
+
+  letter-spacing: 0.1rem;
+}
+.logo {
+ /* padding-left: 8rem; */
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-heading);
+  font-size: var(--font-heading-size);
+  font-weight: var(--font-weight-regular);
+}
+.homeLink {
+ 
+  
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-heading);
+  font-size: var(--font-heading-size);
+  font-weight: var(--font-weight-regular);
+}
+.questionLink {
+ 
+  
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-heading);
+  font-size: var(--font-heading-size);
+  font-weight: var(--font-weight-regular);
+}
+.profileLink {
+  
+  
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-heading);
+  font-size: var(--font-heading-size);
+  font-weight: var(--font-weight-regular);
+}
+.auth-container {
+  display: grid;
+  grid-template-columns: repeat(2,11vw);
+  grid-template-areas: "signinLink signupLink";
+}
+.askSomething-logout {
+  display: grid;
+  grid-template-columns: repeat(2,11vw);
+  grid-template-areas: "ask-question signout";
+}
+.ask-question {
+  grid-area: ask-question;
+  background: transparent;
+  color: #feffff;
+  margin: 0 1rem;
+  padding: 0.6rem;
+  border: 2px solid #feffff;
+  border-radius: 0.4rem;
+  justify-self: center;
+  align-self: center;
+
+}
+.ask-question:hover {
+  background: #ffffff;
+  color: #ff4081;
+  transition: all 300ms ease-in-out
+}
+.signout {
+  grid-area: signout;
+  background: transparent;
+  color: #feffff;
+  border: 2px solid #feffff;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  justify-self: center;
+  align-self: center;
+}
+.signout:hover {
+  background: #ffffff;
+  color: #ff4081;
+  transition: all 300ms ease-in-out
+}
+.signinLink {
+  grid-area: signinLink;
+  transition: all 500ms ease-in-out;
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-heading);
+  font-size: var(--font-heading-size);
+  font-weight: var(--font-weight-regular);
+}
+
+
+.signupLink {
+ grid-area: signupLink;
+  transition: all 500ms ease-in-out;
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-heading);
+  font-size: var(--font-heading-size);
+  font-weight: var(--font-weight-regular);
+}
+
+
+.navbar-container h2:hover {
+  color: #ff4081;
+  background: #ffffff;
+  padding: 0.7rem;
+  transition: all 300ms ease-in-out;
+}

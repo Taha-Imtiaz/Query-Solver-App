@@ -1,0 +1,5 @@
+.asked-question {
+    display: grid;
+    grid-template-columns: 30fr 50fr 20fr;
+   /* background: red; */
+}

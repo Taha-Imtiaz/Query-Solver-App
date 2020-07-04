@@ -1,0 +1,11 @@
+.question-page-conatiner {
+    display: grid;
+    grid-template-rows: 12vh minmax(78vh,min-content);
+  
+}
+.question-table tr{
+    display: grid;
+    grid-template-rows: 12vh;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 1.4rem;
+}

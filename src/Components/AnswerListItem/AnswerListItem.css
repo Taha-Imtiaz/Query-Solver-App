@@ -1,0 +1,7 @@
+.answer-list-item {
+    display: grid;
+    grid-template-rows: minmax(7vh,min-content);
+    grid-template-columns: 70fr 30fr;
+    margin: 0.5rem;
+    /* background: turquoise; */
+}

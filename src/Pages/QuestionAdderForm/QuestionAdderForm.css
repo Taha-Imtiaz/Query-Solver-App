@@ -1,0 +1,109 @@
+.question-adder-form {
+    display: grid;
+    grid-template-rows: minmax(90vh,min-content);
+    grid-template-columns: 1fr;
+    grid-template-areas: "form-container";
+    /* background-color: salmon; */
+}
+ .form-container {
+   grid-area: form-container;
+    display: grid;
+    /* background-color: sienna; */
+    grid-template-rows: 15vh 10vh 50vh 15vh;
+    grid-template-columns: 1fr;
+    grid-template-areas: "."
+                        "form-heading"
+                        "form-grid"
+                                 ".";
+}
+.form-heading {
+   grid-area: form-heading;
+   /* background: seagreen; */
+
+}
+ .form-grid {
+    grid-area: form-grid;
+    /* background: rebeccapurple; */
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: ". form-fields ."; 
+}
+ .form-fields {
+    grid-area: form-fields;
+    
+    display: grid;
+    grid-template-rows: 10vh 30vh 10vh;
+    grid-template-columns: 1fr;
+    grid-template-areas: "question-title"
+                          "question-description"
+                            "question-submit-btn";
+    background: #f7f7f7;
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+}
+.form-fields .question-title {
+ 
+  grid-area: question-title;
+  grid-template-rows: repeat(2,5vh);
+  display: grid;
+  grid-template-areas: "titlelabel"
+                          "titleinput";
+}
+.question-title label {
+grid-area: titlelabel;
+color: #303030;
+font-family: serif;
+font-size: 1.5rem;
+display: flex;
+margin: 0 1rem;
+align-items: center;
+}
+.question-title input {
+  grid-area: titleinput;
+  border-radius: 0.5rem;
+  border: 1px solid #a8a8a8;
+  margin: 0 1rem;
+  outline: none;
+  text-indent: 1rem;
+}
+
+.question-description {
+  grid-area: question-description;
+  display: grid;
+  grid-template-rows: 5vh 25vh;
+  grid-template-areas: "desclabel"
+                       "descinput";
+}
+.question-description label {
+  grid-area: desclabel;
+  color: #303030;
+  font-family: serif;
+  font-size: 1.5rem;
+  display: flex;
+  margin: 0 1rem;
+  align-items: center;
+  }
+  .question-description input {
+    grid-area: descinput;
+    border-radius: 0.5rem;
+    border: 1px solid #a8a8a8;
+    margin: 0 1rem;
+    outline: none;
+    text-indent: 1rem;
+  }
+.question-submit-btn button {
+
+ grid-area: question-submit-btn;
+ display: grid;
+ outline: none;
+ margin: 1rem;
+ padding: 1rem;
+ width: 20rem;
+ color: #f7f7f7;
+ border-radius: 0.3rem;
+ background: #d9534f;
+ justify-self: center;
+ align-self: center;
+ 
+}

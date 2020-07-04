@@ -1,0 +1,68 @@
+.answer-form-container {
+    display: grid;
+    grid-template-columns: 80fr 20fr;
+    grid-template-areas: ". addanswerBtn";
+    /* background-color: violet; */
+    
+}
+.answer-form-container button {
+    margin:  1.5rem;
+    justify-self: start;
+    align-self: start;
+    grid-area: addanswerBtn;
+    background: #81d4fa;
+    outline: none;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+
+.addAnswer-body {
+    margin: 2rem 0;
+    width: 35rem;
+    height: 20rem;
+    box-sizing: border-box;
+}
+.addAnswer-body h1 {
+    margin: 1rem 0;
+   color:#d9534f;
+   font-weight: var( --font-weight-medium);
+   font-family: var(--font-heading);
+   padding: 1rem 0;
+   text-transform: uppercase;
+}
+.addAnswer-body input {
+    /* width: 25rem; */
+  
+    height: 10rem;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 1px solid #98a3a8;
+    width: 100%;
+    text-indent: 0.7rem;
+}
+.addAnswer-body input:focus {
+    border: 1px solid #81d4fa;
+}
+
+.addAnswer-body form div {
+    position: relative;
+}
+.addAnswer-body form label {
+    
+    padding-left:  0.7rem;
+    color: #303030;
+    font-size: var(--font-content-size);
+}
+
+.addAnswer-body button {
+    margin: 1rem 0;
+    outline: none;
+    padding: 1rem;
+    width: 20rem;
+    background: #d9534f;
+    border-radius: 0.3rem;
+    
+    color: #ffffff;
+    text-transform: uppercase;
+}

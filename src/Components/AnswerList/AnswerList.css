@@ -1,0 +1,5 @@
+.answer-list-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(7vh,min-content));
+    /* background-color: turquoise; */
+}
